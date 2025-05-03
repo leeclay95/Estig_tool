@@ -21,7 +21,7 @@ The tabs represent each individual stig by its short name listed in Evaluate-STI
 This excel sheet will be processed by a python script to generate anwser files for STIG automation.
 
 ####ENSURE TO CLOSE WORKBOOK AFTER CHANGES HAVE BEEN APPLIED####
-##THE PYTHON PROGRAM also allows mass answering of Manual STIGs with a comment that will apply to all of them. If this is a more feasible option please let me know###
+##THE PYTHON PROGRAM also allows mass answering of Manual STIGs with a comment that will apply to all of them. ###
 
 #Created by Lee Clayton##
 
