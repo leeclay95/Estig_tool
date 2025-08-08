@@ -1,4 +1,4 @@
-````markdown
+
 # **ESTIG Tool** – Enhanced STIG Management with AI-Powered PowerShell Generation
 
 A comprehensive Python tool for managing **Security Technical Implementation Guide (STIG)** compliance with **AI-powered PowerShell validation code generation**.
