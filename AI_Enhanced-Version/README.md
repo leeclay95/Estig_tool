@@ -191,7 +191,7 @@ return $ValidationResults
 
 # 2. Browse STIG library
 ```python estig_tool_ai.py -l```
-```
+
 # Enter path: C:\STIG_Library
 # Select STIG: Windows Server 2019
 # Select rule: V-253467
@@ -214,15 +214,13 @@ project-directory/
     └── U_Active_Directory_Domain_V3R6_STIG.zip
 ```
 
----
+
 
 ## 🔧 Troubleshooting
 
 ### **AI Connection Issues**
 
-```
-python estig_tool_ai.py -a
-```
+
 
 **Common causes:**
 
