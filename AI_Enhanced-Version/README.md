@@ -26,7 +26,7 @@ A comprehensive Python tool for managing **Security Technical Implementation Gui
 ## 📋 Requirements
 
 ### **Python Dependencies**
-```bash
+
 pip install openpyxl pandas requests
 ````
 
