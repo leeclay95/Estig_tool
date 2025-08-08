@@ -506,7 +506,7 @@ def generate_powershell():
             print(f"❌ Failed to save: {e}")
 
 # ═════════════════════════════════════════════════════════════════════════════
-# EXISTING FUNCTIONS (keeping your original code unchanged)
+# EXISTING FUNCTIONS 
 # ═════════════════════════════════════════════════════════════════════════════
 def init_workbook():
     src = prompt_path("Template workbook path (.xlsx)")
@@ -901,4 +901,5 @@ def main():
                 print(f"❌ Error: {e}")
 
 if __name__ == "__main__":
+
     main()
