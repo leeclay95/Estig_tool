@@ -191,12 +191,12 @@ return $ValidationResults
 
 # 2. Browse STIG library
 ```python estig_tool_ai.py -l```
-
-# Enter path: C:\STIG_Library
+```
+```# Enter path: C:\STIG_Library
 # Select STIG: Windows Server 2019
 # Select rule: V-253467
-# Generated code is displayed and optionally saved```
-
+# Generated code is displayed and optionally saved
+```
 
 ---
 
