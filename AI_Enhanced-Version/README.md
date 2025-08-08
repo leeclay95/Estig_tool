@@ -27,8 +27,8 @@ A comprehensive Python tool for managing **Security Technical Implementation Gui
 
 ### **Python Dependencies**
 
-pip install openpyxl pandas requests
-````
+```pip install openpyxl pandas requests```
+
 
 ### **Option 1: LM Studio**
 
@@ -49,13 +49,13 @@ pip install openpyxl pandas requests
 1. Clone or download the `estig_tool_ai.py` file
 2. Install dependencies:
 
-   ```bash
+   ```
    pip install openpyxl pandas requests
    ```
 3. Set up your AI model in LM Studio or other supported AI server
 4. Configure the tool:
 
-   ```bash
+   ```
    python estig_tool_ai.py -a
    ```
 
@@ -68,7 +68,7 @@ pip install openpyxl pandas requests
 
 Example `ai_config.json`:
 
-```json
+```
 {
   "base_url": "http://localhost:1234",
   "model": "deepseek-coder-6.7b-instruct",
@@ -83,7 +83,7 @@ Example `ai_config.json`:
 
 ### **Command Line Interface**
 
-```bash
+```
 # Configure AI settings
 python estig_tool_ai.py -a
 
@@ -103,7 +103,7 @@ python estig_tool_ai.py -r    # Create reports
 
 Run without arguments:
 
-```bash
+```
 python estig_tool_ai.py
 ```
 
@@ -113,7 +113,7 @@ python estig_tool_ai.py
 
 ### 1. Prepare STIG Library
 
-```bash
+```
 mkdir stig_library
 cd stig_library
 ```
@@ -129,7 +129,7 @@ stig_library/
 
 ### 2. Parse and Generate Code
 
-```bash
+```
 python estig_tool_ai.py -l
 ```
 
@@ -147,7 +147,7 @@ The tool will:
 
 Example generated script:
 
-```powershell
+```
 # PowerShell STIG Validation Script
 # Generated: 2025-01-15 10:30:45
 # STIG: Windows Server 2019 Security Technical Implementation Guide
@@ -185,17 +185,18 @@ return $ValidationResults
 
 **STIG Library Workflow**
 
-```bash
+
 # 1. Configure AI
-python estig_tool_ai.py -a
+```python estig_tool_ai.py -a```
 
 # 2. Browse STIG library
-python estig_tool_ai.py -l
+```python estig_tool_ai.py -l```
+```
 # Enter path: C:\STIG_Library
 # Select STIG: Windows Server 2019
 # Select rule: V-253467
-# Generated code is displayed and optionally saved
-```
+# Generated code is displayed and optionally saved```
+
 
 ---
 
@@ -219,7 +220,7 @@ project-directory/
 
 ### **AI Connection Issues**
 
-```bash
+```
 python estig_tool_ai.py -a
 ```
 
