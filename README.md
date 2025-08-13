@@ -32,6 +32,13 @@ This Python tool helps **automate** and **simplify** the STIG compliance lifecyc
 
 ---
 
+### ** What is STIG and Why Is It Important **
+
+* STIGs are detailed configuration guidelines for securing IT systems, developed by DISA. 
+* They are crucial for ensuring systems meet minimum security baselines and are compliant with RMF (Risk Management Framework) and ATO (Authorization to Operate) requirements. 
+* Adhering to STIGs helps protect systems from vulnerabilities and breaches
+* More Information: https://anchore.com/blog/stig-compliance-requirements/
+
 ## **🧩 How It Works**
 
 ### **🔢 Command-Line Flags**
